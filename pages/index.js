@@ -47,10 +47,9 @@ export default function Home() {
                         to go to his house to then enter the next level. There is currently only one level.`;
       textTransition(para);
     }
-    else if (e.target.id == "word"){
-      para.innerHTML = `This is a simple single page web app with a main purpose of randomly displaying inspirational quotes to get your day going.
-                        I made use of the Type.fit API to fetch the quotes and I did some string manipulation in JavaScript to display
-                        this data in an aesthetic way.`;
+    else if (e.target.id == "aboutlastnight"){
+      para.innerHTML = `This is a submission for my first game jam. I worked solo on this game and made it using Godot and some royalty free
+                        assets on Sketchfab. More info on this game is in the link below`;
       textTransition(para);
                       }
     else if (e.target.id == "cinema"){
@@ -109,17 +108,16 @@ export default function Home() {
                 <h1>My Projects</h1>
                 </div>
 
-                <h2>1. Hey Buddy - Top Down Adventure Game</h2>
+                <h2>1. About Last Night</h2>
+                <img src="gameshot.png" height="300" width="550" id="aboutlastnight" onClick={itemClick}></img>
+                <br></br><label id="add_info">Built with Godot and GDScript</label>
+                <br></br><a href="https://itwasadream.itch.io/about-last-night">Deployed Version</a>
+
+                <h2>2. Hey Buddy - Top Down Adventure Game</h2>
                 <img src="heybud.jpg" height="300" width="550" id="heybud" onClick={itemClick}></img>
                 <br></br><label id="add_info">Built with Godot and GDScript.</label>
                 <br></br><a href="https://github.com/kamvegwij/HeyBuddyProject/tree/main/project_files">Source Code</a>
                 <br></br><a href="https://youtu.be/DEqJ1oXKJUI">Gameplay Runthrough</a>
-
-                <h2>2. What's The Word Today?</h2>
-                <img src="word.jpg" height="300" width="550" id="word" onClick={itemClick}></img>
-                <br></br><label id="add_info">Built with HTML, CSS, JavaScript, Flask, Type.fit API and deployed on Heroku.</label>
-                <br></br><a href="https://github.com/kamvegwij/WordOfTheDay">Source Code</a>
-                <br></br><a href="https://whatsthewordtoday.herokuapp.com/">Deployed Version</a>
 
                 <h2>3. Cinema Booking</h2>
                 <img src="akatsukicinema.jpg" height="300" width="550" id="cinema" onClick={itemClick}></img>
