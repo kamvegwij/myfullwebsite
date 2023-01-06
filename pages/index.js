@@ -154,18 +154,17 @@ export default function Home() {
             <img src="htmlbg.png" id="tech_img" name="html"></img>
             <img src="javabg.png" id="tech_img" name="java"></img>
             <img src="jsbg.png" id="tech_img" name="javascript"></img>
-            <img src="captivatebg.png" id="tech_img" name="captivate"></img>
+            <img src="Csharp_Logo.png" id="tech_img" name="csharp"></img>
+            <img src="unity.png" id="tech_img" name="unity"></img>
 
           </div>
           <div id="bottom-container">
           <div id="bottom-info">
-              <h1>Why do I want to join SovTech?</h1>
+              <h1>Why hire me?</h1>
               <p>I'm a young and enthusiastic developer and I'm ready to challenge myself by aquiring more skills and knowledge in the
-                 field of Software Development. #ADAPT, through this assignment I forced myself to step out
-                 of my comfort zone and create something new from scratch in a short span of time. I truly believe in thinking different and allowing myself to 
+                 field of Software Development. I truly believe in thinking different and allowing myself to 
                  take up unfamiliar technologies as this in turn makes me grow greatly as a developer and overall as a person because accomplishing something I 
                  had little to no prior knowledge is a great source of motivation for any future project.
-                 With all this being said I believe I would make a great team member at SovTech and showcase my talent and potential.
               </p>
           </div>
           </div>
