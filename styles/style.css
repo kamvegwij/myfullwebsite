@@ -148,6 +148,16 @@
   height: 50%;
 }
 
+#embedProj
+{
+  /*some function*/
+  margin: auto;
+  width: 50%;
+}
+#embedProj #downloadLink{
+  width: 75%;
+}
+
 /*some animations of mine :) */
 
 main{

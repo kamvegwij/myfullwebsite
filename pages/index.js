@@ -167,6 +167,11 @@ export default function Home() {
           </div>
           </div>
 
+          <div id="embedProj">
+            <h1>Download my Project(s)</h1>
+            <iframe height="167" frameBorder="0" src="https://itch.io/embed/1855873" width="552" id="downloadLink"><a href="https://itwasadream.itch.io/about-last-night">About Last Night by Kamve</a></iframe>
+          </div>
+
           <footer>
             <p>Find more of my projects on my GitHub page</p>
             <a href="https://github.com/kamvegwij">GitHub</a>
