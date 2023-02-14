@@ -92,12 +92,10 @@ export default function Home() {
             <div id="info-container">
                   <h1>About Me</h1>
                   <p>
-                  My name is Kamvelihle Gwijana and I am from 
-                  Queenstown, Eastern Cape South Africa.
-                  I am a Full Stack Developer and Game Developer with a passion for learning new technologies and applying them practically.
-                  I have strong leadership qualities as I served as the chairman and club captain for the UWC Tennis Club and for the final year project I took the initiative to 
-                  make sure the team stayed on track and met the constant deadlines. I work well in a team and as a practical learner I enjoy socialising with other people
-                  and coming up with new ways of solving problems.
+                  My name is Kamvelihle Gwijana and I am a software developer based in Cape Town.<br></br>
+                  I am very passionate about the work that I do and I currently specialise in game development. 
+                  I use Unity and Godot at an intermediate level and 
+                  I am proficient in C#, Java and Python.
                   </p>
             </div>
           </div>
@@ -167,15 +165,6 @@ export default function Home() {
           </div>
           </div>
 
-          <div id="embedProj">
-            <h1>Download my Project(s)</h1>
-            <iframe height="167" frameBorder="0" src="https://itch.io/embed/1855873" width="552" id="downloadLink"><a href="https://itwasadream.itch.io/about-last-night">About Last Night by Kamve</a></iframe>
-          </div>
-
-          <footer>
-            <p>Find more of my projects on my GitHub page</p>
-            <a href="https://github.com/kamvegwij">GitHub</a>
-          </footer>
     </main>
     </div>
   )
