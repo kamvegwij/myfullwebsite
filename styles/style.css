@@ -160,9 +160,16 @@
 /*work experience section*/
 #work-xp
 {
+  text-align: center;
   padding-top: 2%;
-  background-color: black;
-  color: white;
+  background: linear-gradient(#f6f0db, rgb(68, 10, 68));
+}
+#Farcast h2
+{
+  margin: auto;
+  width: 15%;
+  border: 2px solid white;
+  background-color: rgb(31, 5, 31);
 }
 /*some animations of mine :) */
 
