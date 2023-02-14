@@ -67,8 +67,8 @@ export default function Home() {
       textTransition(para);
                       }
     else if (e.target.id == "game"){
-      para.innerHTML = `This is a project I am working on with a team for a company and I am a backend developer. We're using Godot and GDScript to
-                        make an educational video game.`;
+      para.innerHTML = `This a an educational video game aimed at teaching school learners different subjects by playing games. I am the game developer/programmer
+                        in the team where my tasks are game mechanics, physics, logic, sound design and UI/UX`;
       textTransition(para);    
                       }
 
@@ -155,15 +155,23 @@ export default function Home() {
 
           </div>
           <div id="bottom-container">
-          <div id="bottom-info">
-              <h1>Why hire me?</h1>
-              <p>I'm a young and enthusiastic developer and I'm ready to challenge myself by aquiring more skills and knowledge in the
-                 field of Software Development. I truly believe in thinking different and allowing myself to 
-                 take up unfamiliar technologies as this in turn makes me grow greatly as a developer and overall as a person because accomplishing something I 
-                 had little to no prior knowledge is a great source of motivation for any future project.
-              </p>
+            <div id="bottom-info">
+                <h1>Why hire me?</h1>
+                <p>I'm a young and enthusiastic developer and I'm ready to challenge myself by aquiring more skills and knowledge in the
+                  field of Software Development. I truly believe in thinking different and allowing myself to 
+                  take up unfamiliar technologies as this in turn makes me grow greatly as a developer and overall as a person because accomplishing something I 
+                  had little to no prior knowledge is a great source of motivation for any future project.
+                </p>
+            </div>
           </div>
+
+          <div id="work-xp">
+            <h1>Work Experience</h1>
+            <div id="Farcast">
+              <h2>Farcast</h2>
+            </div>
           </div>
+
 
     </main>
     </div>

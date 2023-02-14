@@ -157,7 +157,13 @@
 #embedProj #downloadLink{
   width: 75%;
 }
-
+/*work experience section*/
+#work-xp
+{
+  padding-top: 2%;
+  background-color: black;
+  color: white;
+}
 /*some animations of mine :) */
 
 main{
