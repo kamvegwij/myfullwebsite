@@ -130,10 +130,6 @@ export default function Home() {
                 <br></br><a href="https://github.com/kamvegwij/FINAL-CAPSTONE/tree/main/Product%20Development">Source Code</a>
                 <br></br><a href="https://myquickhelp.herokuapp.com/">Deployed Version </a>
 
-                <h2>5. Educational Video Game</h2>
-                <img src="bg3.png" height="300" width="550" id="game" onClick={itemClick}></img>
-                <br></br><label id="add_info">Built with Godot and GDScript.</label>
-
               </div>
 
               <div id="description">
@@ -171,7 +167,25 @@ export default function Home() {
             <h1>Work Experience</h1>
 
             <div id="Farcast">
-              <h2>Farcast</h2>
+              <h1>TECHSPRUNG - Game Developer Internship</h1>
+              <h1>April 2022 - April 2023</h1>
+
+              <p>
+                My role in the team was a game developer.<br></br> 
+                My responsibilities included game mechanics, logic, bug fixing, code optimisation, UI/UX,<br></br> sound design and 
+                using version control software "GitHub" and "GitLab".<br></br>
+                This introduced to me developing large scale games, concept development, game testing and bug fixing, documentation and all core fundamentals of game development.
+              </p>
+            </div>
+
+            <div id = "fxpoint">
+              <h1>Flux-point Technologies - Developer</h1>
+              <h1>August 2022 - October 2022</h1>
+
+              <p>
+                My role as a developer was to convert a clients powerpoint slides to interactive adobe captivate slides.<br></br>
+                This introduced to me to working in a fast paced environment.
+              </p>
             </div>
           </div>
 

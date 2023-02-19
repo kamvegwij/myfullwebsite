@@ -162,14 +162,20 @@
 {
   text-align: center;
   padding-top: 2%;
-  background: linear-gradient(#f6f0db, rgb(68, 10, 68));
+  background-color: #f6f0db;
 }
-#Farcast h2
+#Farcast, #fxpoint
 {
-  margin: auto;
-  width: 15%;
-  border: 2px solid white;
-  background-color: rgb(31, 5, 31);
+  padding: 25px;
+}
+#Farcast h1, #fxpoint h1
+{
+  margin-top: 10px;
+  font-size: 1em;
+}
+#Farcast h3, #fxpoint h3
+{
+  margin-top: 5px;
 }
 /*some animations of mine :) */
 
