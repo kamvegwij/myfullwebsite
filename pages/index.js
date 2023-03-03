@@ -96,8 +96,7 @@ export default function Home() {
                   <p>
                   My name is Kamvelihle Gwijana and I am a software developer based in Cape Town.<br></br>
                   I am very passionate about the work that I do and I currently specialise in game development. 
-                  I use Unity and Godot at an intermediate level and 
-                  I am proficient in C#, Java and Python.
+                  My main game engines are Unity and Godot where I have made and published games using both.
                   </p>
             </div>
           </div>
