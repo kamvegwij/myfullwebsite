@@ -68,9 +68,9 @@ export default function Home() {
                         flask implementation, API data fetching and some of the main interactions.`;
       textTransition(para);
                       }
-    else if (e.target.id == "game"){
-      para.innerHTML = `This a an educational video game aimed at teaching school learners different subjects by playing games. I am the game developer/programmer
-                        in the team where my tasks are game mechanics, physics, logic, sound design and UI/UX`;
+    else if (e.target.id == "bored-in-house"){
+      para.innerHTML = `This is an android game I've made which will have alot of puzzle mini games in it, currently there is a riddle mini game ready
+                        to play!`;
       textTransition(para);    
                       }
 
@@ -112,24 +112,29 @@ export default function Home() {
                 <img src="gameshot.png" height="300" width="550" id="aboutlastnight" onClick={itemClick}></img>
                 <br></br><label id="add_info">Built with Godot and GDScript</label>
                 <br></br><a href="https://itwasadream.itch.io/about-last-night">Deployed Version</a>
+                
+                <h2>2. Bored In The House (Android Game)</h2>
+                <img src="logo.png" height="300" width="550" id="bored-in-house" onClick={itemClick}></img>
+                <br></br><label id="add_info">Built with Godot 4 beta </label>
+                <br></br><a href="https://github.com/kamvegwij/bored-in-the-house">Source Code</a>
+                <br></br><a href="https://itwasadream.itch.io/boredinthehouse">Deployed Version </a>
 
-                <h2>2. Hey Buddy - Top Down Adventure Game</h2>
+                <h2>3. Hey Buddy - Top Down Adventure Game</h2>
                 <img src="heybud.jpg" height="300" width="550" id="heybud" onClick={itemClick}></img>
                 <br></br><label id="add_info">Built with Godot and GDScript.</label>
                 <br></br><a href="https://github.com/kamvegwij/HeyBuddyProject/tree/main/project_files">Source Code</a>
                 <br></br><a href="https://youtu.be/DEqJ1oXKJUI">Gameplay Runthrough</a>
 
-                <h2>3. Cinema Booking</h2>
+                <h2>4. Cinema Booking</h2>
                 <img src="akatsukicinema.jpg" height="300" width="550" id="cinema" onClick={itemClick}></img>
                 <br></br><label id="add_info">Built with HTML, CSS, JavaScript, Flask and SQL.</label>
                 <br></br><a href="https://github.com/kamvegwij/AKATSUKI/tree/main/OnlineCinemaBooking">Source Code </a>
 
-                <h2>4. QuickHelp</h2>
+                <h2>5. QuickHelp</h2>
                 <img src="quickhelp.jpg" height="300" width="550" id="help" onClick={itemClick}></img>
                 <br></br><label id="add_info">Built with HTML, CSS, JavaScript, Flask, SQL, Type.fit API, Twilio and deployed on Heroku.</label>
                 <br></br><a href="https://github.com/kamvegwij/FINAL-CAPSTONE/tree/main/Product%20Development">Source Code</a>
                 <br></br><a href="https://myquickhelp.herokuapp.com/">Deployed Version </a>
-
               </div>
 
               <div id="description">
