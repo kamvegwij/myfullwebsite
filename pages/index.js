@@ -49,6 +49,10 @@ export default function Home() {
                         to go to his house to then enter the next level. There is currently only one level.`;
       textTransition(para);
     }
+    else if (e.target.id == "mrbluu"){
+      para.innerHTML = `This is a full demo 2D game with currently 5 levels. It's an android game and has full touchscreen functionality`;
+      textTransition(para);
+    }
     else if (e.target.id == "aboutlastnight"){
       para.innerHTML = `This is a submission for my first game jam. I worked solo on this game and made it using Godot and some royalty free
                         assets on Sketchfab. More info on this game is in the link below`;
@@ -111,25 +115,30 @@ export default function Home() {
                 <img src="gameshot.png" height="300" width="550" id="aboutlastnight" onClick={itemClick}></img>
                 <br></br><label id="add_info">Built with Godot and GDScript</label>
                 <br></br><a href="https://itwasadream.itch.io/about-last-night">Deployed Version</a>
-                
-                <h2>2. Bored In The House (Android Game)</h2>
+
+                <h2>2. Mr Bluu (Android Game) </h2>
+                <img src="character.png" height="300" width="550" id="mrbluu" onClick={itemClick}></img>
+                <br></br><label id="add_info">Built with Godot and GDScript</label>
+                <br></br><a href="https://itwasadream.itch.io/mrbluu">Deployed Version</a>
+                <br></br><a href="https://youtu.be/VhRzBuXgdwM">Gameplay Runthrough</a>
+                <h2>3. Bored In The House (Android Game)</h2>
                 <img src="logo.png" height="300" width="550" id="bored-in-house" onClick={itemClick}></img>
                 <br></br><label id="add_info">Built with Godot 4 beta </label>
                 <br></br><a href="https://github.com/kamvegwij/bored-in-the-house">Source Code</a>
                 <br></br><a href="https://itwasadream.itch.io/boredinthehouse">Deployed Version </a>
 
-                <h2>3. Hey Buddy - Top Down Adventure Game</h2>
+                <h2>4. Hey Buddy - Top Down Adventure Game</h2>
                 <img src="heybud.jpg" height="300" width="550" id="heybud" onClick={itemClick}></img>
                 <br></br><label id="add_info">Built with Godot and GDScript.</label>
                 <br></br><a href="https://github.com/kamvegwij/HeyBuddyProject/tree/main/project_files">Source Code</a>
                 <br></br><a href="https://youtu.be/DEqJ1oXKJUI">Gameplay Runthrough</a>
 
-                <h2>4. Cinema Booking</h2>
+                <h2>5. Cinema Booking</h2>
                 <img src="akatsukicinema.jpg" height="300" width="550" id="cinema" onClick={itemClick}></img>
                 <br></br><label id="add_info">Built with HTML, CSS, JavaScript, Flask and SQL.</label>
                 <br></br><a href="https://github.com/kamvegwij/AKATSUKI/tree/main/OnlineCinemaBooking">Source Code </a>
 
-                <h2>5. QuickHelp</h2>
+                <h2>6. QuickHelp</h2>
                 <img src="quickhelp.jpg" height="300" width="550" id="help" onClick={itemClick}></img>
                 <br></br><label id="add_info">Built with HTML, CSS, JavaScript, Flask, SQL, Type.fit API, Twilio and deployed on Heroku.</label>
                 <br></br><a href="https://github.com/kamvegwij/FINAL-CAPSTONE/tree/main/Product%20Development">Source Code</a>
@@ -154,6 +163,7 @@ export default function Home() {
             <img src="jsbg.png" id="tech_img" name="javascript"></img>
             <img src="Csharp_Logo.png" id="tech_img" name="csharp"></img>
             <img src="unity.png" id="tech_img" name="unity"></img>
+            <img src="unreal.png" id="tech_img" name="unreal"></img>
 
           </div>
           <div id="bottom-container">
@@ -170,19 +180,33 @@ export default function Home() {
           <div id="work-xp">
             <h1>Work Experience</h1>
 
-            <div id="Farcast">
+            <div id="xp_item">
               <h1>TECHSPRUNG - Game Developer Internship</h1>
-              <h1>April 2022 - April 2023</h1>
+              <h1>April 2022 - </h1>
 
               <p>
-                My role in the team was a game developer.<br></br> 
+                My role in the team is a lead game developer.<br></br> 
                 My responsibilities included game mechanics, logic, bug fixing, code optimisation, UI/UX,<br></br> sound design and 
                 using version control software "GitHub" and "GitLab".<br></br>
                 This introduced to me developing large scale games, concept development, game testing and bug fixing, documentation and all core fundamentals of game development.
               </p>
             </div>
-
-            <div id = "fxpoint">
+            <div id = "xp_item">
+              <h1> ArchDevSoftware - Game Developer</h1>
+              <h1> March 2023 - </h1>
+              <p>
+                My role as a game developer is to implement multiplayer features, game mechanics and to fix issues reported by the lead developer.
+                <br></br>I use Godot 4 and Unreal Engine 5.
+              </p>
+            </div>
+            <div id = "xp_item">
+              <h1>Yappy LLC - Game Developer Internship</h1>
+              <h1> March 2023 - April 2023</h1>
+              <p>
+                My responsibilities were to port multiple games to HTML5. I also had to add mobile functionality like touchscreen buttons and responsiveness.
+              </p>
+            </div>
+            <div id = "xp_item">
               <h1>Flux-point Technologies - Developer</h1>
               <h1>August 2022 - October 2022</h1>
 
