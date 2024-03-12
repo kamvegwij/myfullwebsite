@@ -120,7 +120,6 @@ export default function Home() {
             <img src="pythonbg.png" id="tech_img" name="python"></img>
             <img src="cssbg.png" id="tech_img" name="css"></img>
             <img src="godot.png" id="tech_img" name="godot"></img>
-            <img src="htmlbg.png" id="tech_img" name="html"></img>
             <img src="javabg.png" id="tech_img" name="java"></img>
             <img src="jsbg.png" id="tech_img" name="javascript"></img>
             <img src="Csharp_Logo.png" id="tech_img" name="csharp"></img>
