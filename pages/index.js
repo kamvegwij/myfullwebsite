@@ -147,7 +147,7 @@ export default function Home() {
               <h1>April 2022 - </h1>
 
               <p id="myinfo">
-              My role includes implementing game mechanics, UI/UX, software design, code optimisation and version controlling using GitLab. 
+              My role includes implementing game mechanics, UI/UX, software design, <br></br> code optimisation and version controlling using GitLab. 
               Through this role I have learned crucial skills needed for gamification and <br></br>
               I acquired a Games For Learning certificate which has equipped me with the necessary skills to be able to<br></br> 
               develop and implement applications that can integrate real life lessons and turn them into a fun and interactive products.
@@ -168,7 +168,7 @@ export default function Home() {
               <p id="myinfo">
               My role included finding open source projects and modifying them to get them ready for deployment,<br></br>
               building browser games using Unity and Godot Engine, configuring games 
-              for Android and IOS devices, optimising the games for weaker devices and deploying games for browser play.
+              for Android and IOS devices, optimising the games for weaker devices <br></br> and deploying games for browser play.
               </p>
             </div>
             <div id = "xp_item">
