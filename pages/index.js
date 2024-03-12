@@ -43,41 +43,20 @@ export default function Home() {
     //now for conditions to allow me to show the description for each project:
     const para = document.getElementById("descriptions");
     if (e.target.id == "heybud"){
-      para.innerHTML = `This is a short top-down adventure game I made using Godot and wrote in GDScript. 
-                        You begin in the characters farm, 
-                        his name Buddy, and are instructed to find his tools that have gone missing. Once every item is collected you are prompted
-                        to go to his house to then enter the next level. There is currently only one level.`;
+      para.innerHTML = `This is a soccer like game built using Python and Turtle library. The approach involves building custom game engine parts to 
+                        build the game logic and loop on top of.`;
       textTransition(para);
     }
     else if (e.target.id == "mrbluu"){
-      para.innerHTML = `This is a full demo 2D game with currently 5 levels. It's an android game and has full touchscreen functionality`;
+      para.innerHTML = `I made this for a game jam. I ranked 2nd for the game jam and recieved great feedback from other developers. This is a 2D strategy game where the player has
+                        to carefully manage their resources. The game logic was the most difficult part to work on but it eventually contributed to the fun game loop.`;
       textTransition(para);
     }
     else if (e.target.id == "aboutlastnight"){
-      para.innerHTML = `This is a submission for my first game jam. I worked solo on this game and made it using Godot and some royalty free
-                        assets on Sketchfab. More info on this game is in the link below`;
+      para.innerHTML = `This is a browser game built using vanilla Javascript. My approach was to make a simple custom game engine to then build the 
+                          game on top of. The physics is also built from scratch.`;
       textTransition(para);
                       }
-    else if (e.target.id == "cinema"){
-      para.innerHTML = `This is one of the two final year projects in Computer Science and it is web app that allows a user to
-                        choose a featured movie, book a seat and also allow them to cancel the seat. This user data is then stored
-                        in a database for admin purposes. I worked mainly on backend in this project using Flask.`;
-      textTransition(para);
-      textTransition(para);
-                      }
-    else if (e.target.id == "help"){
-      para.innerHTML = `This is the last final year project and it is a web app that allows a user to login and have access to a page with helplines
-                        in which they can be immediately taken to a call with one or they can access the chatroom where they can have a one on one
-                        talk with a psychologist registered on our service. In this project I was a fullstack developer as I made the pages,
-                        flask implementation, API data fetching and some of the main interactions.`;
-      textTransition(para);
-                      }
-    else if (e.target.id == "bored-in-house"){
-      para.innerHTML = `This is an android game I've made which will have alot of puzzle mini games in it, currently there is a riddle mini game ready
-                        to play!`;
-      textTransition(para);    
-                      }
-
   }
 
   const showStack = (item) => {
@@ -93,14 +72,14 @@ export default function Home() {
       
       <main>
           <div id="top-container">
-            <h1 id="main-head">Hey, I'm Kamve!</h1>
+            <h1 id="main-head">Hey, I'm Kamvelihle!</h1>
           
             <div id="info-container">
                   <h1>About Me</h1>
-                  <p>
+                  <p id="myinfo">
                   My name is Kamvelihle Gwijana and I am a software developer based in Cape Town.<br></br>
-                  I am very passionate about the work that I do and I currently specialise in game development. 
-                  My main game engines are Unity and Godot where I have made and published games using both.
+                  I specialise in gamification and tackling socio-economic issues through developing software. Through my freelancing and personal projects I've had
+                  the privilege of working with industry experts and I continue to grow my skills in developing interactive applications that aim to help people in the real world.
                   </p>
             </div>
           </div>
@@ -111,38 +90,21 @@ export default function Home() {
                 <h1>My Projects</h1>
                 </div>
 
-                <h2>1. About Last Night</h2>
-                <img src="gameshot.png" height="300" width="550" id="aboutlastnight" onClick={itemClick}></img>
+                <h2>1. Slot Machine Game </h2>
+                <img src="plinko.png" height="300" width="550" id="aboutlastnight" onClick={itemClick}></img>
+                <br></br><label id="add_info">Built with Javascript and PixiJS</label>
+                <br></br><a href="https://github.com/kamvegwij/PlinkoGame">Source Code</a>
+
+                <h2>2. Seasons In Isolation </h2>
+                <img src="seasons.png" height="300" width="550" id="mrbluu" onClick={itemClick}></img>
                 <br></br><label id="add_info">Built with Godot and GDScript</label>
-                <br></br><a href="https://itwasadream.itch.io/about-last-night">Deployed Version</a>
+                <br></br><a href="https://itwasadream.itch.io/seasons-in-isolation">Deployed Version</a>
 
-                <h2>2. Mr Bluu (Android Game) </h2>
-                <img src="character.png" height="300" width="550" id="mrbluu" onClick={itemClick}></img>
-                <br></br><label id="add_info">Built with Godot and GDScript</label>
-                <br></br><a href="https://itwasadream.itch.io/mrbluu">Deployed Version</a>
-                <br></br><a href="https://youtu.be/VhRzBuXgdwM">Gameplay Runthrough</a>
-                <h2>3. Bored In The House (Android Game)</h2>
-                <img src="logo.png" height="300" width="550" id="bored-in-house" onClick={itemClick}></img>
-                <br></br><label id="add_info">Built with Godot 4 beta </label>
-                <br></br><a href="https://github.com/kamvegwij/bored-in-the-house">Source Code</a>
-                <br></br><a href="https://itwasadream.itch.io/boredinthehouse">Deployed Version </a>
+                <h2>3. Soccer Game </h2>
+                <img src="pythonbg.png" height="300" width="550" id="heybud" onClick={itemClick}></img>
+                <br></br><label id="add_info">Built with Python</label>
+                <br></br><a href="https://github.com/kamvegwij/Python-Turtle-Soccer-Game">Source Code</a>
 
-                <h2>4. Hey Buddy - Top Down Adventure Game</h2>
-                <img src="heybud.jpg" height="300" width="550" id="heybud" onClick={itemClick}></img>
-                <br></br><label id="add_info">Built with Godot and GDScript.</label>
-                <br></br><a href="https://github.com/kamvegwij/HeyBuddyProject/tree/main/project_files">Source Code</a>
-                <br></br><a href="https://youtu.be/DEqJ1oXKJUI">Gameplay Runthrough</a>
-
-                <h2>5. Cinema Booking</h2>
-                <img src="akatsukicinema.jpg" height="300" width="550" id="cinema" onClick={itemClick}></img>
-                <br></br><label id="add_info">Built with HTML, CSS, JavaScript, Flask and SQL.</label>
-                <br></br><a href="https://github.com/kamvegwij/AKATSUKI/tree/main/OnlineCinemaBooking">Source Code </a>
-
-                <h2>6. QuickHelp</h2>
-                <img src="quickhelp.jpg" height="300" width="550" id="help" onClick={itemClick}></img>
-                <br></br><label id="add_info">Built with HTML, CSS, JavaScript, Flask, SQL, Type.fit API, Twilio and deployed on Heroku.</label>
-                <br></br><a href="https://github.com/kamvegwij/FINAL-CAPSTONE/tree/main/Product%20Development">Source Code</a>
-                <br></br><a href="https://myquickhelp.herokuapp.com/">Deployed Version </a>
               </div>
 
               <div id="description">
@@ -152,7 +114,7 @@ export default function Home() {
                   <p id="descriptions">Click on the project image to see description below:</p>
               </div>
           </div>
-          <h1>What Do I Know?</h1>
+          <h1>Technical Skills</h1>
           <div id="tech">
             
             <img src="pythonbg.png" id="tech_img" name="python"></img>
@@ -163,16 +125,16 @@ export default function Home() {
             <img src="jsbg.png" id="tech_img" name="javascript"></img>
             <img src="Csharp_Logo.png" id="tech_img" name="csharp"></img>
             <img src="unity.png" id="tech_img" name="unity"></img>
-            <img src="unreal.png" id="tech_img" name="unreal"></img>
+            <img src="react.png" id="tech_img" name="unreal"></img>
 
           </div>
           <div id="bottom-container">
             <div id="bottom-info">
                 <h1>Why hire me?</h1>
-                <p>I'm a young and enthusiastic developer and I'm ready to challenge myself by aquiring more skills and knowledge in the
-                  field of Software Development. I truly believe in thinking different and allowing myself to 
-                  take up unfamiliar technologies as this in turn makes me grow greatly as a developer and overall as a person because accomplishing something I 
-                  had little to no prior knowledge is a great source of motivation for any future project.
+                <p id="myinfo">In my experience I have been part of projects from their early phases of SDD drafting, testing and laying out
+                  the codebase structure all while adopting agile methodologies. This has helped me be confident in the work I do and the skills that I bring to a team, in these early phases I have 
+                  also worked with amazing individuals and learned alot about maintaining applications, taking a more business like perspective and most importantly 
+                  always testing the product with the customers to ensure the project stays in line with initial goals. I am eager to continue to grow in the industry and be part of game changing products. 
                 </p>
             </div>
           </div>
@@ -181,36 +143,39 @@ export default function Home() {
             <h1>Work Experience</h1>
 
             <div id="xp_item">
-              <h1>TECHSPRUNG - Game Developer Internship</h1>
+              <h1>TECHSPRUNG - Game Developer (Contract)</h1>
               <h1>April 2022 - </h1>
 
-              <p>
-                My role in the team is a lead game developer.<br></br> 
-                My responsibilities included game mechanics, logic, bug fixing, code optimisation, UI/UX,<br></br> sound design and 
-                using version control software "GitHub" and "GitLab".<br></br>
-                This introduced to me developing large scale games, concept development, game testing and bug fixing, documentation and all core fundamentals of game development.
+              <p id="myinfo">
+              My role includes implementing game mechanics, UI/UX, software design, code optimisation and version controlling using GitLab. 
+              Through this role I have learned crucial skills needed for gamification and <br></br>
+              I acquired a Games For Learning certificate which has equipped me with the necessary skills to be able to<br></br> 
+              develop and implement applications that can integrate real life lessons and turn them into a fun and interactive products.
               </p>
             </div>
             <div id = "xp_item">
-              <h1> ArchDevSoftware - Game Developer</h1>
-              <h1> March 2023 - </h1>
-              <p>
-                My role as a game developer is to implement multiplayer features, game mechanics and to fix issues reported by the lead developer.
-                <br></br>I use Godot 4 and Unreal Engine 5.
+              <h1> ArchDevSoftware - Game Developer (Contract)</h1>
+              <h1> March 2023 - December 2023 </h1>
+              <p id="myinfo">
+              My role in the team was implementing game mechanics, network programming from the game engine and debugging through an agile methodology.<br></br>
+              With this project I learned important skills that have improved my ability to integrate real world scenarios into a mobile/desktop application.<br></br> 
+              I also learned skills in network programming, C++ using Unreal Engine, code optimisation and debugging
               </p>
             </div>
             <div id = "xp_item">
-              <h1>Yappy LLC - Game Developer Internship</h1>
+              <h1>Yappy LLC - Game Developer (Contract)</h1>
               <h1> March 2023 - April 2023</h1>
-              <p>
-                My responsibilities were to port multiple games to HTML5. I also had to add mobile functionality like touchscreen buttons and responsiveness.
+              <p id="myinfo">
+              My role included finding open source projects and modifying them to get them ready for deployment,<br></br>
+              building browser games using Unity and Godot Engine, configuring games 
+              for Android and IOS devices, optimising the games for weaker devices and deploying games for browser play.
               </p>
             </div>
             <div id = "xp_item">
               <h1>Flux-point Technologies - Developer</h1>
               <h1>August 2022 - October 2022</h1>
 
-              <p>
+              <p id="myinfo">
                 My role as a developer was to convert a clients powerpoint slides to interactive adobe captivate slides.<br></br>
                 This introduced to me to working in a fast paced environment.
               </p>
