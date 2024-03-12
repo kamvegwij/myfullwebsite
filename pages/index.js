@@ -154,7 +154,7 @@ export default function Home() {
               </p>
             </div>
             <div id = "xp_item">
-              <h1> ArchDevSoftware - Game Developer (Contract)</h1>
+              <h1> ArchDevSoftware(USA) - Game Developer (Contract)</h1>
               <h1> March 2023 - December 2023 </h1>
               <p id="myinfo">
               My role in the team was implementing game mechanics, network programming from the game engine and debugging through an agile methodology.<br></br>
@@ -163,7 +163,7 @@ export default function Home() {
               </p>
             </div>
             <div id = "xp_item">
-              <h1>Yappy LLC - Game Developer (Contract)</h1>
+              <h1>Yappy LLC(India) - Game Developer (Contract)</h1>
               <h1> March 2023 - April 2023</h1>
               <p id="myinfo">
               My role included finding open source projects and modifying them to get them ready for deployment,<br></br>
