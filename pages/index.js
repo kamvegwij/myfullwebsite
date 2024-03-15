@@ -42,17 +42,16 @@ export default function Home() {
 
     //now for conditions to allow me to show the description for each project:
     const para = document.getElementById("descriptions");
-    if (e.target.id == "heybud"){
-      para.innerHTML = `This is a soccer like game built using Python and Turtle library. The approach involves building custom game engine parts to 
-                        build the game logic and loop on top of.`;
+      if (e.target.id == "pocket"){
+      para.innerHTML = `Made using React Native. This is the first app in an ecosystem I am building. These will be tools to simplify my workflow and help track how much work I'm doing without having to use too many apps.'`;
       textTransition(para);
     }
-    else if (e.target.id == "mrbluu"){
+    else if (e.target.id == "seasons"){
       para.innerHTML = `I made this for a game jam. I ranked 2nd for the game jam and recieved great feedback from other developers. This is a 2D strategy game where the player has
                         to carefully manage their resources. The game logic was the most difficult part to work on but it eventually contributed to the fun game loop.`;
       textTransition(para);
     }
-    else if (e.target.id == "aboutlastnight"){
+    else if (e.target.id == "plinko"){
       para.innerHTML = `This is a browser game built using vanilla Javascript. My approach was to make a simple custom game engine to then build the 
                           game on top of. The physics is also built from scratch.`;
       textTransition(para);
@@ -87,23 +86,23 @@ export default function Home() {
               <div id="projects">
 
                 <div id="proj-head">
-                <h1>My Projects</h1>
+                <h1>Projects</h1>
                 </div>
 
-                <h2>1. Slot Machine Game </h2>
-                <img src="plinko.png" height="300" width="550" id="aboutlastnight" onClick={itemClick}></img>
-                <br></br><label id="add_info">Built with Javascript and PixiJS</label>
-                <br></br><a href="https://github.com/kamvegwij/PlinkoGame">Source Code</a>
+                <h2>1. Pocket Assistant </h2>
+                <img src="pocketassistant.jpg" height="300" width="550" id="pocket" onClick={itemClick}></img>
+                <br></br><label id="add_info">Built with React Native</label>
+                      <br></br><a href="https://github.com/kamvegwij/ReminderApp">Source Code</a>
 
                 <h2>2. Seasons In Isolation </h2>
-                <img src="seasons.png" height="300" width="550" id="mrbluu" onClick={itemClick}></img>
+                <img src="seasons.png" height="300" width="550" id="seasons" onClick={itemClick}></img>
                 <br></br><label id="add_info">Built with Godot and GDScript</label>
                 <br></br><a href="https://itwasadream.itch.io/seasons-in-isolation">Deployed Version</a>
 
-                <h2>3. Soccer Game </h2>
-                <img src="pythonbg.png" height="300" width="550" id="heybud" onClick={itemClick}></img>
-                <br></br><label id="add_info">Built with Python</label>
-                <br></br><a href="https://github.com/kamvegwij/Python-Turtle-Soccer-Game">Source Code</a>
+                <h2>3. Slot Machine Game </h2>
+                      <img src="plinko.png" height="300" width="550" id="plinko" onClick={itemClick}></img>
+                <br></br><label id="add_info">Built with Javascript and PixiJs</label>
+                      <br></br><a href="https://github.com/kamvegwij/PlinkoGame">Source Code</a>
 
               </div>
 
