@@ -43,7 +43,7 @@ export default function Home() {
     //now for conditions to allow me to show the description for each project:
     const para = document.getElementById("descriptions");
       if (e.target.id == "pocket"){
-      para.innerHTML = `Made using React Native. This is the first app in an ecosystem I am building. These will be tools to simplify my workflow and help track how much work I'm doing without having to use too many apps.'`;
+      para.innerHTML = `Made using React Native. This is the first app in an ecosystem I am building. These will be tools to simplify my workflow and help track how much work I'm doing.`;
       textTransition(para);
     }
     else if (e.target.id == "seasons"){
